@@ -3,11 +3,17 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 import HeroImage from '../assets/hero-image.jpg';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 const Home = () => {
  
 
   return (
+    <>
+    
+    
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="min-h-screen pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="h-[calc(100vh-4rem)] flex items-center justify-between">
@@ -51,6 +57,10 @@ const Home = () => {
         </div>
       </div>
     </motion.div>
+    <About/>
+    <Projects/>
+    <Contact/>
+    </>
   );
 };
 
