@@ -7,22 +7,22 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/rk-rohiit',
       label: 'GitHub',
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://linkedin.com/in/rohitkumar46',
       label: 'LinkedIn',
     },
     {
       icon: Twitter,
-      href: 'https://twitter.com/yourusername',
+      href: 'https://twitter.com/rohiit46',
       label: 'Twitter',
     },
     {
       icon: Mail,
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:askrohiitsharma@gmail.com',
       label: 'Email',
     },
   ];

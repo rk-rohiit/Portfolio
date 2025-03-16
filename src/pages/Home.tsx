@@ -50,7 +50,6 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-  
     </motion.div>
   );
 };
