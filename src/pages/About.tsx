@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Code, Database, Layout, Palette } from 'lucide-react';
 
@@ -72,17 +71,10 @@ const About = () => {
         >
           <h2 className="text-2xl font-bold mb-4">My Journey</h2>
           <p className="text-gray-300 mb-4">
-            With over 5 years of experience in web development, I've worked on a
-            wide range of projects from small business websites to large-scale
-            enterprise applications. My passion for clean code and user-centric
-            design drives me to create solutions that not only work flawlessly but
-            also provide an exceptional user experience.
+            With a year of experience, including a 6-month UI/UX internship and a 6-month full-stack development internship, I've worked on a variety of projects ranging from small business websites to scalable applications. My passion for clean code and user-centric design drives me to create solutions that are both functional and provide an exceptional user experience.
           </p>
           <p className="text-gray-300">
-            I'm constantly learning and staying up-to-date with the latest
-            technologies and best practices in web development. My goal is to
-            deliver high-quality solutions that help businesses grow and succeed in
-            the digital world.
+            I am constantly learning and staying up-to-date with the latest technologies and best practices in web development. My goal is to deliver high-quality solutions that help businesses grow and succeed in the digital world.
           </p>
         </motion.div>
       </div>
